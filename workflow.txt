@@ -1,0 +1,15 @@
+Step-1) Create a virtual environment
+        - python -m venv env
+        - env\Scripts\activate
+
+Step-2) Installation
+        - pip install numpy pandas scikit-learn tensorflow joblib streamlit
+
+Step-3) Train the model
+        - python train_model.py
+
+Step-4) Launch the web-app
+        - streamlit run app.py
+
+Step-5) Test for fraud data
+        - Change the data accordingly to test the fraud probability.
